@@ -8,7 +8,7 @@ The MiRage is a 60% ortholinear keyboard with three clickable OLED displays, int
 
 The PCB can be populated as-is for a "plank" keyboard or broken in half for a split board. The right half can be used independently as the Rage Pad numberpad/macro pad/stream deck.
 
-This was designed for a YouTube video on my channel: `URL HERE` It will be improved and sold as a kit, and will form part of a larger project called the Fata Morgana cyberdeck.
+This was designed for a YouTube video on my channel: https://youtu.be/Fg0V5M0llaE It will be improved and sold as a kit, and will form part of a larger project called the Fata Morgana cyberdeck.
 
 Fusion 360 model: https://a360.co/3vEh6YI
 
