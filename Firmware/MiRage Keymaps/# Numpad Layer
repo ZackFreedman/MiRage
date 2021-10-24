@@ -1,0 +1,9 @@
+# Numpad Layer
+# R0, K7: Switch to Numpad Layer 2 until released
+R0, K8: SHIFT+4 # $
+R0, K9: SHIFT+9 # (
+R0, K9: SHIFT+0 # )
+R0, K10: BACKSPACE
+
+R1, K7: NUM LOCK
+R1, K8: EQUALS

@@ -1,0 +1,67 @@
+R0, K0: ESC
+#R0, K0:
+#	On click: Click WINDOWS + A
+#	On double-click: Type "Hello # world" slowly  # Try to confuse # "The # parser" lol 
+#	On hold: Switch to Layer 2 until released
+
+R0, K1: 1
+R0, K2: 2
+R0, K3: 3
+R0, K4: 4
+R0, K5: 5
+R0, K6: 6
+R0, K7: 7
+R0, K8: 8
+R0, K9: 9
+R0, K10: 0
+R0, K11: EQUALS
+R1, K0: TAB
+R1, K1: Q
+R1, K2: W
+R1, K3: E
+R1, K4: R
+R1, K5: T
+R1, K6: Y
+R1, K7: U
+R1, K8: I
+R1, K9: O
+R1, K10: P
+R1, K11: MINUS  # TODO: Add alias for HYPHEN and DASH
+R2, K0: CAPSLOCK  # This should auto-detect to left windows
+R2, K1: A
+R2, K2: S
+R2, K3: D
+R2, K4: F
+R2, K5: G
+R2, K6: H
+R2, K7: J
+R2, K8: K
+R2, K9: L
+R2, K10: SEMICOLON
+R2, K11: QUOTE
+R3, K0: SHIFT  # This should auto-detect to left shift
+R3, K1: Z
+R3, K2: X
+R3, K3: C
+R3, K4: V
+R3, K5: B
+R3, K6: N
+R3, K7: M
+R3, K8: COMMA
+R3, K9: PERIOD
+R3, K10: UP ARROW
+R3, K11: DOWN ARROW  # This should auto-detect to right shift
+R4, K0: WINDOWS
+R4, K1: LEFT ALT
+R4, K2: LEFT CONTROL
+R4, K3: SPACE
+R4, K4: BACKSPACE
+R4, K5:
+	On click: Toggle Function Layer
+	On hold: Switch to Function Layer until released
+R4, K6: ENTER
+R4, K7: LEFT ARROW
+R4, K8: RIGHT ARROW
+
+# TODO: Commented-out lines with another hash inside them confuse the parser
+# This comment is here to confuse the parser
