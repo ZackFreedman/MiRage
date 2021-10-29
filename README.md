@@ -19,12 +19,15 @@ My component choices are final. Attempts to change my mind will be roasted in a 
 Libraries are temporarily included for testing purposes. These will be replaced by references on release.
 
 Keymaps are lists of bindings in the format:
-R\[Row #\], K\[Key #\]: \[Key name (optional)\] # Comments start with a hash
-	On press: \[Command(s) to perform once as soon as user presses key\]
-	On click: \[Command(s) to perform when user presses and releases key within a few hundred milliseconds\]
-	On double-click: \[Command(s) to perform when user presses and releases key twice within a few hundred milliseconds. The dash in 'double-click' is not optional.\]
-	On hold: \[Command(s) to perform when user holds key for more than a few hundred ms. These generally repeat or remain in effect until the key is released.\]
-	On release: \[Command(s) to perform once when user releases key. This is done after On Click and On Double-Click events are finished, and after ongoing On Hold events are cleaned up.\]
+
+```
+R[Row #], K[Key #]: [Key name (optional)] # Comments start with a hash
+	On press: [Command(s) to perform once as soon as user presses key]
+	On click: [Command(s) to perform when user presses and releases key within a few hundred milliseconds]
+	On double-click: [Command(s) to perform when user presses and releases key twice within a few hundred milliseconds. The dash in 'double-click' is not optional.]
+	On hold: [Command(s) to perform when user holds key for more than a few hundred ms. These generally repeat or remain in effect until the key is released.]
+	On release: [Command(s) to perform once when user releases key. This is done after On Click and On Double-Click events are finished, and after ongoing On Hold events are cleaned up.]
+```
 
 Actions you can bind to a key or event:
 - `LEFT SHIFT`: Specify key bindings by naming them in all caps. You can see all the available key names in `keynames.py`. Key names must be in all caps. Spaces are optional. If a key is bound inline, it binds all events.
