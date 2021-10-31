@@ -49,10 +49,15 @@ for oled in oleds:
     oled.rotation = 2
 
 try:
-    oled_cool_lines = [['', '', '', '', '', '', '', ''],
-                       ['', '', '', '', '', '', '', ''],
-                       ['', '', '', '', '', '', '', '']]
+    oled_cool_lines = [['']*8 for _ in range(3)]
 
+    '''
+    equal to
+    [['', '', '', '', '', '', '', ''],
+     ['', '', '', '', '', '', '', ''],
+     ['', '', '', '', '', '', '', '']]
+    '''
+    
     def cool_ass_parsing_visualizer(text):
         for oled in oleds:
             oled.fill(0)
