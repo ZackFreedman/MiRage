@@ -1,7 +1,4 @@
-import usb_hid
 import time
-import supervisor
-import microcontroller
 
 class BoundAction:
     __slots__ = 'owner'
@@ -212,7 +209,7 @@ class StringTyperAction(BoundAction):
 
     def one_shot(self):
         for index, char in enumerate(self.payload):
-            if index is not 0: # Prevents unnecessary delay after final char
+            if index != 0: # Prevents unnecessary delay after final char
                 time.sleep(self.typing_rate)
             self.owner.hid_keyboard_layout.write(char)
         self.last_fire_timestamp = time.monotonic()
@@ -324,4 +321,4 @@ class ReloadKeymapAction(BoundAction):
         self.owner.queue_reload()
 
     def __eq__(self, obj):
-        return isinstance(obj, ReloadkeymapAction)
+        return isinstance(obj, ReloadKeymapAction)
