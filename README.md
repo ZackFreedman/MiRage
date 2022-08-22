@@ -49,7 +49,7 @@ Actions you can bind to a key or event:
 
 Row and key numbers are zero-indexed, and refer to the physical placement of the keys on the keyboard. **These have nothing to do with the schematic. It's common sense numbering** Row 0, Key 0 is the top-left key.
 
-Whitespace and line terminators are irrelevent. You can even use tabs, you sick bastard. UTF-8 encoding is strongly recommended; not sure how well Python handles bigger characters.
+Whitespace and line terminators are irrelevant. You can even use tabs, you sick bastard. UTF-8 encoding is strongly recommended; not sure how well Python handles bigger characters.
 
 You can actually define the same key and same key action multiple times in the same map. This has the same effect as creating Sequences, and is extremely obnoxious to debug. I can't prevent you from doing it, but I can say "I told you so."
 
